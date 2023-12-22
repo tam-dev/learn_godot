@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://jmfueg76slu0"]
+
+[ext_resource type="Texture2D" uid="uid://lee2owg4pcsn" path="res://icon.svg" id="1_jq25n"]
+[ext_resource type="Script" path="res://move.gd" id="2_mxvfw"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(423, 246)
+rotation = -6.28319
+scale = Vector2(1.095, 1.095)
+texture = ExtResource("1_jq25n")
+script = ExtResource("2_mxvfw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(186.5, 21.5)
+scale = Vector2(0.492188, 0.523438)
+texture = ExtResource("1_jq25n")
